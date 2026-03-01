@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "Bash(git:*)"
+    ],
+    "deny": []
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "alwaysThinkingEnabled": true,
+  "skipDangerousModePermissionPrompt": true
+}
